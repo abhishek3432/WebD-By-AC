@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+</head>
+<body>
+    <!-- button outside form do nothing  -->
+    <button>submit</button>
+
+    <form action="/action">
+        <div>
+            <label>
+                blank: <input placeholder="enter anthing"> <br>
+            </label>            
+        </div>
+        <div>
+            <label>
+                Username: <input type="text" placeholder="enter Username"> <br>
+            </label>            
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="enter password" id="password">
+        </div>
+        Number: <input type="number" placeholder="enter number"> <br>
+        Time: <input type="time" placeholder="enter time"> <br>
+        color: <input type="color" placeholder="enter color"> <br>
+        <button type="submit">sumit entry</button>
+        <button type="reset">reset entry</button>
+        <button>this button has no type</button>
+        <!-- you can also make button using input tag with certain attributes -->
+        <input type="button" >
+        <input type="button" value="input that don't submit">
+        <input type="submit" value="input that submits">
+        <input type="reset" value="input that reset">
+
+    </form>
+</body>
+</html>

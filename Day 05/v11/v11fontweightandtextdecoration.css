@@ -1,0 +1,19 @@
+a{
+    border: solid;
+    text-decoration: none;
+}
+h1{
+    border: solid;
+    /* font-weight: normal; */
+    /* font-weight: bold; */
+    /* font-weight: 100; */
+    font-weight: bolder;
+    /* font-weight: lighter; */
+}
+p{
+    border: solid;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+    
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>name attributes</title>
+</head>
+<body>
+    <!-- button outside form do nothing  -->
+
+    <form action="/action">
+        <div>
+            <label for="Username">Username :</label>
+            <input
+                type="text"
+                placeholder="Enter Username"
+                id="Username"
+                name="user"
+            />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input 
+                type="password"
+                placeholder="enter password"
+                id="password" 
+                name="pass"    
+            />
+        </div>
+ 
+        <button type="submit">submit</button>
+    </form>
+
+        <hr>
+        <!-- new form -->
+        <form action="https://www.google.com/search">
+            <input
+                placeholder="search anything in google"
+                id="search"
+                name="q"
+            />
+            <button type="search">search</button>            
+        </form>
+
+
+</body>
+</html>
