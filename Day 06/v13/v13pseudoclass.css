@@ -1,0 +1,15 @@
+/* pseudo class */
+button:hover{
+    background-color :crimson;
+    color:blue
+}
+button:active{
+    background-color:pink;
+}
+input[type=radio]:checked + label {
+    font-weight: bolder;
+    color: green;
+}
+div:nth-of-type(2n){
+    background-color :crimson;
+}

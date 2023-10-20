@@ -1,0 +1,6 @@
+/* Child Combinator */
+main > p{
+    color :blue;
+    background-color :rgb(183, 255, 0);
+}
+

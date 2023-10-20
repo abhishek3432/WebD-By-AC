@@ -1,0 +1,10 @@
+/* attribute selector */
+input[type]{
+    background-color: wheat;
+}
+input[type="password"]{
+    color : green;
+}
+input[type="text"]{
+    color : blue;
+}

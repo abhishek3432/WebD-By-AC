@@ -1,0 +1,10 @@
+/* pseudoelements */
+p::first-letter{
+   color:blueviolet;
+}
+p::first-line{
+    text-decoration:darkblue;
+}
+p::selection{
+    background-color: blueviolet;
+}
