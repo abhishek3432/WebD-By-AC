@@ -1,0 +1,62 @@
+video 3
+div{
+    /* about height and width */
+    height: 500px;
+    width: 300px;    
+}
+/* video 4 */
+div{
+    /* About border */
+    border-width:5px;
+    border-style:solid solid solid dotted;
+    border-color:brown;
+    border: 5px solid solid solid dotted brown; /*shorthand*/
+
+    border-left-color:blue;
+
+}
+/* video 5 */
+button{
+    /* about border radius */
+    background-color: red;
+    border: solid blue;
+    border-radius: 100px 100px;
+}
+/* video 6 */
+button{
+    /* about padding */
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding: 2px 5px /*shorthand  */
+}
+
+/* video 7 */
+div{
+    /* about margin */
+    margin: 20px 10px;
+}
+
+/* video 9 */
+div{
+    display: inline;/*inline show error*/
+}
+
+/* video 11 */
+div{
+    display: inline-block;/*solution for inline error*/
+    /* display: none;  */ /*make content invisible*/
+}
+
+/* video 12 */
+span{
+    border: solid;
+    width: 25%;
+    
+}
+/* video 13 */
+span{
+    /* font-size: 2em; *//* this create snoballeffect */
+    font-size: 2rem;
+}

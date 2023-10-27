@@ -1,0 +1,17 @@
+#alpha{
+    border: solid;
+    background-color:#00ff005f; 
+
+}
+.opacity{
+    border: solid;
+    opacity: 0.3;
+    /* v02 */
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 60ms;
+}
+.opacity:hover{
+    opacity: 1;
+
+}
