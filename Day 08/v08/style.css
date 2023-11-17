@@ -1,0 +1,38 @@
+#alpha{
+    border: solid;
+    background-color:#00ff005f; 
+
+}
+.opacity{
+    color:brown;
+    border: solid;
+    opacity: 0.3;
+    /* v02 */
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 60ms;
+    margin-top: 1em;;
+    
+}
+.opacity:hover{
+    
+    background-color:blueviolet ;
+    opacity: 1;
+    transform: rotate(45deg);
+    
+    /* v4 */
+    transform: scale(0.98); /*this overides above transform attribute*/
+    
+    /* v5 */
+    transform: translate(500px);
+
+    /* v6 */
+    transform: skew(-180deg);
+
+    /* v7 */
+    box-shadow: 15px 15px 25px blue;
+
+    /* v8 */
+    background-image: url("topics.jpg");
+    background-size: auto;
+}

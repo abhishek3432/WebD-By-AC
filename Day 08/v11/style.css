@@ -1,0 +1,41 @@
+#face{
+    border: solid orange;
+    background-color: orange;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transition: 1s ease-in-out 50ms ;
+}
+#face:hover{
+    box-shadow: 5px 5px 10px orangered;
+}
+
+
+#eye{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    transition: 1s ease-in-out 50ms ;
+}
+
+/* #eye:hover{
+    box-shadow: 5px 5px 10px grey;
+} */
+#eye > div{
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 30px;
+}
+
+#mouth{
+    background-color: red;
+    border-radius: 0px 0px 50px 50px;
+    height: 40px;
+    width: 50px;
+    position: relative;
+    top: 15%;
+    left: 37%;
+}
