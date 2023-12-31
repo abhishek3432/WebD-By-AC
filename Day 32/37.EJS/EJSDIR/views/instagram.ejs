@@ -1,0 +1,20 @@
+<!-- v6 instagram ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head>
+<body>
+    <!-- v9 instagram page with ejs -->
+    <h2>this page belongs to  <%= data %></h2>
+    <button>follow</button>
+    <button>message</button>
+    <!-- v8 loops -->
+    <h4>accounts that follow you</h4>
+    <% for(follower of followers) { %>
+        <li><%= follower %></li>
+    <% } %>
+</body>
+</html>
